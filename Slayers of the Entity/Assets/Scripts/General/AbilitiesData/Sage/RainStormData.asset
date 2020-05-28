@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombre: Rain Storm
   id: 6
-  icon: {fileID: 21300000, guid: 05e2d6af00483bc42a42f768f4505213, type: 3}
+  icon: {fileID: 21300000, guid: c34bb0c0b716e194a8367fedff94759f, type: 3}
   speed: 1
   attribute: 2

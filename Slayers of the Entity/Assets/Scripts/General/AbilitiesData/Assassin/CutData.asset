@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombre: Cut
   id: 8
-  icon: {fileID: 21300000, guid: db49433d40e53614492908d3cb323f14, type: 3}
+  icon: {fileID: 21300000, guid: 845c46268c2477046aaefd27b933be79, type: 3}
   speed: 1
   attribute: 4

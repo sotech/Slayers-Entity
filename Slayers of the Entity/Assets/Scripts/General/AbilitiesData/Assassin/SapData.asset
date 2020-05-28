@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombre: Sap
   id: 10
-  icon: {fileID: 21300000, guid: f683841be7595e6438b943365a4d6279, type: 3}
+  icon: {fileID: 21300000, guid: c50af9ce5b08fd44f9c3f8a6dd850d12, type: 3}
   speed: 0
   attribute: 4
