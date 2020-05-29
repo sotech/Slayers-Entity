@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuBtns : MonoBehaviour
+public class Buttons_MainMenu : MonoBehaviour
 {
     private Animator animator;
 
