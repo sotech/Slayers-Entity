@@ -33,15 +33,15 @@ public class ConfirmBtn : MonoBehaviour
         //Generar clase en GameData
         GameManager.instance.CreateHero(heroID);
         //Reproducir animacion
-        StartCoroutine(PlayAnimation());
-        //Cambiar escena
-        SceneManager.LoadScene("WorldScene");
+        StartCoroutine(ConfirmAction());        
     }
 
-    IEnumerator PlayAnimation()
+    IEnumerator ConfirmAction()
     {
         animator.SetTrigger("PlayFadeOutHero");
         yield return new WaitForSeconds(3f);
+        //Cambiar escena
+        SceneManager.LoadScene("WorldScene");
     }
     #region Control del boton
     public void OnCardSelected(int hid, int cid)
